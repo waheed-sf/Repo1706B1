@@ -19,7 +19,7 @@ function validate() {
         isValid = false;
     }
     else {
-        $('#State').css('border-color', 'lightgrey');
+        $('#State').css('border-color', 'Darkblue');
     }
     if ($('#Country').val().trim() == "") {
         $('#Country').css('border-color', 'Red');
